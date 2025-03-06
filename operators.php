@@ -37,4 +37,11 @@
     echo var_dump($a and $b) . "<br>";
     echo var_dump($a or $b) . "<br>";
     echo var_dump(!($a and $b)) . "<br>";
+
+    // The ? Operator(Ternary Operator)
+    $a = 10;
+    $b = 20;
+    $max = $a>$b?$a:$b;
+
+    echo $max;
 ?>
